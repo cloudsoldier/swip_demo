@@ -14,4 +14,20 @@ tags = {
   Portfolio   = "Children and Families"
   Environment = "Dev"
 }
+i#n use
+storage_account_name     = "swiptfstatesa"
+location                 = "West Europe"
+account_tier             = "Standard"
+account_replication_type = "LRS"
 
+resource_group_name = "s205d01-swip"
+
+# tfvar value for storage container
+
+
+tags = {
+  Service     = "Social Work Induction Programme (SWIP)"
+  Product     = "Social Work Induction Programme (SWIP)"
+  Portfolio   = "Children and Families"
+  Environment = "Dev"
+}
